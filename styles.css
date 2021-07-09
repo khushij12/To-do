@@ -1,0 +1,91 @@
+body{
+    background: linear-gradient(#e66465, #9198e5);
+    background-repeat: no-repeat;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+/*<side or corner>
+The position of the gradient line's starting point. If specified, it consists of the
+word to and up to two keywords: one indicates the horizontal side (left or right), and
+the other the vertical side (top or bottom).
+The values to top, to bottom, to left, and to right are equivalent to the angles 0deg
+180deg, 270deg, and 90deg, respectively. The other values are translated into an angle.
+<angle>
+<linear-color-stop>
+<color-hint> (0.25turn)*/
+
+.card{
+    height: 375px;
+    width: 310px;
+    margin: 75px 380px; /*top-bottom left-right*/
+    padding: 10px;
+    border-radius: 5px;
+    /* background-color: transparent(10%); */
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    /* h-ofset v-ofset blur spread color |none|inset|initial|inherit*/
+    /*positive value of offset goes in right while negative value goes in left*/
+    border-radius: 5%;
+}
+
+.header{
+    height: 25px;
+    padding: 5px;
+    margin: 10px;
+    color:white;
+}
+
+#tasks{
+    margin: 10px;
+    height: 250px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255,0.15);  /*white */
+    overflow: auto;
+}
+
+#Note{
+    text-align: center;
+}
+/* .list{
+    margin: 10px;
+    height: 220px;
+    padding: 5px;
+    background-color: white;
+} */
+
+.footer{
+    margin: 10px;
+    height: 25px;
+}
+.footer-p{
+    margin:5px;
+    padding:10px 5px;
+}
+/*icons styling*/
+.far{
+    color:white;
+    font-size: large;
+}
+
+/* create-button */
+#b1{
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+}
+/* Editing scrollbar using wbkit */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    /* background: #8ee6e183; */
+    background: rgb(214, 210, 210);
+    border-radius: 20px;
+    border:6px solid transparent; /* properties such as padding, margin and transition 
+    are not available in webkit so here we are using border to create padding*/
+    background-clip: content-box; /*to make sure that padding comes inside the scrollbar*/
+  }
+
+  /* Handle on hover */

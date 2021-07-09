@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>To-do</title>
+        <!--styles.css-->
+        <link rel="stylesheet" href="styles.css">
+        <!--awesome icons-->
+        <script src="https://kit.fontawesome.com/e598080cb0.js" crossorigin="anonymous"></script>
+        <!--google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
+        <!--index.js-->
+        <script src="/JS/index.js"></script>
+    </head>
+    <body>
+     
+        <div class="main">
+            <div class="card" >
+                <div class="header">
+                    <center><a id="b1" onclick="create()"><i class="far fa-plus-square"></i>&nbsp&nbspCreate Task</a>
+                    </center>
+                </div>
+                <div class="list">
+                    <div id="tasks" onchange="removeTask()"> <!--here i have use id because getElementsByClass was not working-->
+                        <p id="Note">No Tasks</p> <!--same as above reason-->
+                    </div>
+                </div>
+                <div class="footer">
+                    <p id="footer-note">Pending Task: 0</p>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
