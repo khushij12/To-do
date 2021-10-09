@@ -1,6 +1,5 @@
 # To-do
-This is simple To-do app made while learning javascript. 
-If someone find any flaw or if any improvement needed can always suggest them.
+This is a simple To-do app made while learning javascript. If someone finds any flaw or if any improvement is needed can suggest them.
 
 
 
